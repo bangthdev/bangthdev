@@ -16,10 +16,10 @@
 <h3>Things I build with</h3>
 
 <p>
-  <img
-    src="https://skillicons.dev/icons?i=go,ts,nodejs,react,nextjs,postgres,mongodb,redis,prisma,docker,githubactions,linux&perline=6"
-    alt="Go, TypeScript, Node.js, React, Next.js, PostgreSQL, MongoDB, Redis, Prisma, Docker, GitHub Actions, Linux"
-  />
+  <img src="https://skillicons.dev/icons?i=go,ts,nodejs,react,nextjs,postgres" alt="Go, TypeScript, Node.js, React, Next.js, PostgreSQL" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,redis,prisma,docker,githubactions,linux" alt="MongoDB, Redis, Prisma, Docker, GitHub Actions, Linux" />
+  <img src="https://cdn.simpleicons.org/langgraph" height="44" alt="LangGraph" />
 </p>
 
 <h3>🚀 What I've built</h3>
