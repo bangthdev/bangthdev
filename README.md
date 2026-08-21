@@ -114,9 +114,10 @@ Most of what I learned there lives in a private company repository, so here's wh
 
 <h3>🎓 Education</h3>
 
-- **B.Eng. Information Technology** — Posts and Telecommunications Institute of Technology (PTIT),
-  2021–2026. Thesis defended Aug 2026, degree in Oct 2026.
-- Vietnamese (native) · Chinese (HSK 3–4) · English (Aptis ESOL B1, British Council)
+**B.Eng. Information Technology** — Posts and Telecommunications Institute of Technology (PTIT),
+2021–2026. Degree conferred Oct 2026.
+
+Vietnamese (native) · Chinese (HSK 3–4) · English (Aptis ESOL B1)
 
 <h3>📈 What I'm doing now</h3>
 
