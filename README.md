@@ -18,6 +18,7 @@
 <p>
   <img alt="Open to work" src="https://img.shields.io/badge/Open%20to%20work-Backend%20%2F%20Fullstack-2ea44f?style=for-the-badge" />
   <a href="mailto:bangth.dev@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-bangth.dev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://bangthdev.github.io"><img alt="CV" src="https://img.shields.io/badge/CV-Read%20online-0A66C2?style=for-the-badge&logo=readdotcv&logoColor=white" /></a>
 </p>
 
 <h3>Things I build with</h3>
