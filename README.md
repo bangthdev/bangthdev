@@ -8,9 +8,7 @@
 </p>
 
 <p>
-  <b>Fullstack developer</b> from 🇻🇳 <b>Hanoi, Vietnam</b> — mostly <b>Go</b> and <b>TypeScript</b>.<br/>
-  I like the unglamorous half: billing that charges the right amount, retries that don't
-  double-charge, and page loads that are only slow in production.
+  <b>Fullstack developer</b> from 🇻🇳 <b>Hanoi, Vietnam</b> — mostly <b>Go</b> and <b>TypeScript</b>.
 </p>
 
 <p>
