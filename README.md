@@ -8,11 +8,9 @@
 </p>
 
 <p>
-  I'm a <b>fullstack developer</b> from 🇻🇳 <b>Hanoi, Vietnam</b>, working mostly in
-  <b>Go</b> and <b>TypeScript</b>.<br/>
-  The part of the job I enjoy is the part nobody demos: making sure people get charged the right
-  amount, making sure a job that failed halfway doesn't quietly do everything twice, and finding out
-  why a page is slow only for real users.
+  <b>Fullstack developer</b> from 🇻🇳 <b>Hanoi, Vietnam</b> — mostly <b>Go</b> and <b>TypeScript</b>.<br/>
+  I like the unglamorous half: billing that charges the right amount, retries that don't
+  double-charge, and page loads that are only slow in production.
 </p>
 
 <p>
@@ -25,6 +23,10 @@
 <h3>Things I build with</h3>
 
 <table>
+  <tr>
+    <td><b>AI / LLM</b></td>
+    <td><img alt="LangGraph" src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img alt="OpenRouter" src="https://img.shields.io/badge/-OpenRouter-6467F2?style=flat-square&logo=openrouter&logoColor=white" /> <img alt="Claude" src="https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=claude&logoColor=white" /> <img alt="Agent orchestration" src="https://img.shields.io/badge/-Agent_orchestration-1C3C3C?style=flat-square" /></td>
+  </tr>
   <tr>
     <td><b>Languages</b></td>
     <td><img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white" /> <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img alt="SQL" src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" /></td>
@@ -40,10 +42,6 @@
   <tr>
     <td><b>Frontend</b></td>
     <td><img alt="React" src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" /></td>
-  </tr>
-  <tr>
-    <td><b>AI / LLM</b></td>
-    <td><img alt="LangGraph" src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /></td>
   </tr>
   <tr>
     <td><b>Tooling</b></td>
@@ -80,68 +78,16 @@
   </tbody>
 </table>
 
-<details>
-<summary><b>What I did on each one</b></summary>
-
-<br/>
-
-**Happyfeeling** — I own the repository and set up how the project was structured. I built the part
-that talks to GitHub, and shared the review pipeline with my teammate.
-
-The problem worth telling: the AI kept leaving its comments on the wrong lines, because it reports
-line numbers from memory and gets them slightly wrong. We stopped using its numbers and made it
-quote the exact line instead, then searched the real changes for that quote. If the quote is
-ambiguous, we drop the comment rather than guess.
-
-I also reviewed my teammate's pull requests and caught a few things before they merged — a database
-update that silently never refreshed its timestamp, and a secrets file that was being copied into
-the published Docker image.
-
-**taphoa-management** — built on my own, for a shop that actually uses it. Go backend, PostgreSQL,
-and a deploy script that sets the server up to run in the background on a fresh Ubuntu machine.
-
-The interesting part is the stock: goods arrive in batches with different expiry dates, so a sale
-has to take from the batch expiring soonest. Otherwise stock quietly rots on the shelf while newer
-stock gets sold. There's also a job that emails the owner about anything close to expiring, and an
-assistant that answers questions about stock and can read a photo of an invoice.
-
-**room_management** — a graduation project with three classmates. I built the services side of it
-end to end: the data models, the API, and the admin screens for managing services and their
-bookings. I also wrote the email notifications, the forgot-password flow, and the tests covering all
-of it.
-
-</details>
-
 <h3>🏢 Where I've worked</h3>
 
-<b>Backend / Fullstack Intern</b> — a workflow automation and blockchain platform · Jan–Jun 2026
-
-Most of what I learned there lives in a private company repository, so here's what it was:
-
-- **Reviewing a large payment change.** I found a bug that charged people on Stripe but never
-  actually upgraded their plan, and a missing safeguard that let the same charge go through twice.
-- **Trying to break the billing system on purpose.** The tests I designed turned up a downgrade that
-  took effect immediately instead of at the end of the billing period — which quietly paused
-  automations people were still using. We fixed it by holding the change until the period ended.
-- **Chasing a slow page that was only slow in production.** It turned out not to be the backend at
-  all: the browser was refetching data it already had, because a caching setting was missing.
-  Afterwards, loading the same page again makes no network request at all.
-- **Fixing a query that lost people money.** Upgrading a plan wiped a customer's free credits and
-  counted them as if they had been spent. I fixed the calculation and the balances came back.
-- **Laying out a canvas.** The editor arranged connected blocks fine, but fell apart when the
-  diagram had separate, unconnected groups. I rewrote that part so every group gets placed properly.
+<b>Backend / Fullstack Intern</b> — a workflow automation and blockchain platform · Jan–Jun 2026<br/>
+Billing correctness, payment code review, production debugging.
+The work itself sits in a private repository — the
+<a href="https://bangthdev.github.io">CV</a> tells the stories.
 
 <h3>🎓 Education</h3>
 
-**B.Eng. Information Technology** — Posts and Telecommunications Institute of Technology (PTIT),
-2021–2026. Degree conferred Oct 2026.
-
-Vietnamese (native) · Chinese (HSK 3–4) · English (Aptis ESOL B1)
-
-<h3>📈 What I'm doing now</h3>
-
-Solving algorithm problems in Go every weekday, and reading real codebases to get better at the
-thing I'm weakest at — understanding unfamiliar code on my own.
+**B.Eng. Information Technology**, PTIT 2021–2026 · Vietnamese · Chinese (HSK 3–4) · English (Aptis B1)
 
 <h3>🐍 </h3>
 
@@ -150,11 +96,3 @@ thing I'm weakest at — understanding unfamiliar code on my own.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bangthdev/bangthdev/output/github-snake.svg" />
   <img alt="A snake eating my contribution grid" src="https://raw.githubusercontent.com/bangthdev/bangthdev/output/github-snake.svg" />
 </picture>
-
-<h3>📫 Say hello</h3>
-
-<p>
-  <a href="mailto:bangth.dev@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/bangthdev"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/bangthdev"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
