@@ -30,6 +30,10 @@
     <td><img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white" /> <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img alt="SQL" src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" /></td>
   </tr>
   <tr>
+    <td><b>Currently learning</b></td>
+    <td><img alt="C#" src="https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" /> <img alt="ASP.NET Core" src="https://img.shields.io/badge/-ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" /></td>
+  </tr>
+  <tr>
     <td><b>Backend</b></td>
     <td><img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img alt="Prisma" src="https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" /> <img alt="BullMQ" src="https://img.shields.io/badge/-BullMQ-B0B0B0?style=flat-square" /></td>
   </tr>
@@ -67,6 +71,11 @@
       <td><a href="https://github.com/bangthdev/taphoa-management"><b>taphoa-management</b></a></td>
       <td>Shop software for a grocery store — till, stock, customer debt, and an assistant you can ask questions</td>
       <td>Go · PostgreSQL · React</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/bangthdev/todox-dotnet"><b>todox-dotnet</b></a></td>
+      <td>The API from my old todo app, rebuilt in C# to learn the .NET side</td>
+      <td>C# · .NET 8 · ASP.NET Core</td>
     </tr>
     <tr>
       <td><a href="https://github.com/DuyDao2311/room_management"><b>room_management</b></a></td>
